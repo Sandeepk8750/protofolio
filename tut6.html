@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <center>
+        <form>
+    <h1>Employee Registration</h1>
+    <!-- <form method="">Post</form> -->
+     <table border="1">
+        <tr>
+            <th>Employee Id:</th>
+            <td><input type="text" id="EMPID" name="txtid"></td>
+        </tr>
+        <tr>
+            <th>Employee Name:</th>
+            <td><input type="text" id="EMPNAME" name="txtName"></td>
+        </tr>
+        <tr>
+            <th>Employee Password:</th>
+            <td><input type="password" maxlength="10" id="EMPPASWORD" name="txtName"></td>
+        </tr>
+        <tr>
+            <th>Employee Address:</th>
+            <td><textarea rows="5" cols="21" id="EMPADD"></textarea></td>
+        </tr>
+        <tr>
+            <th>Employee Gender:</th>
+            <td>
+                Male:<input type="radio" name="rd1" value="Male" checked>
+                Female:<input type="radio" name="rd1" value="Female">
+            </td>
+            <tr>
+                <th>Employee City:</th>
+                <td>
+                    <select name="txtCity" id="EMPCITY" size="3" multiple="true">
+                        <option>Gurugram</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option selected>Haryana</option>
+                        <option>Utarpardesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Qualification</th>
+                <td>
+                    Diploma<input type="checkbox" name="chk1" value="Diploma" checked>
+                    UG<input type="checkbox" name="chk2" value="Under Gradute">
+                    PG<input type="checkbox" name="chk1" value="Post Gradute">
+                </td>
+            </tr>
+            <tr>
+                <th>DOB</th>
+                <td><input type="date" name="txtDOB" id="EMPDOB"></td>
+            </tr>
+            <tr>
+                <th>Upload</th>
+                <td><input type="file" name="txtFILE" id="EMPFILE"></td>
+            </tr>
+            <tr>
+                <td></td>
+                
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </tr>
+     </table>
+    </form>
+    </center>
+</body>
+</html>

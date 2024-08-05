@@ -1,0 +1,47 @@
+.box{
+     width: 500px;
+     height: 300px;
+     border: 2px solid black;
+     outline: dotted;
+     margin: auto;
+     background-color: blue;
+     outline-width: 19px;
+     outline-style: double;
+     outline-color: yellowgreen;
+     /* align-items: center; */
+     /* justify-content: center; */
+}
+.box h1{
+    text-align: center;
+    align-items: center;
+    margin: 14px 12px;
+   
+    justify-content: center;
+    padding-top: 100px;
+}
+.text{
+    width: 100vw;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.text h1{
+      align-items: center;
+      text-transform: lowercase;
+}
+.text p{
+    align-items: center;
+      text-transform: capitalize;
+      text-indent: 50px;
+      letter-spacing: 5px;
+      word-spacing: 15px;
+      line-height: 0.8;
+      /* text-decoration-thickness:unset; */
+      border: 2px solid green;
+      text-decoration-color: red;
+}
+
+.shadow{
+    text-shadow: 4px 4px 4px red , 0px 0px 4px blue;
+    
+}
